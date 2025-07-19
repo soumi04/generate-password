@@ -1,0 +1,84 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #444;
+  margin-top: 30px;
+}
+
+.password-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.password-list li {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-left: 5px solid #4a90e2;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.password-list strong {
+  color: #333;
+}
+
+.add-password {
+  margin-top: 30px;
+}
+
+.add-password input {
+  width: calc(50% - 12px);
+  padding: 10px;
+  margin: 6px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-password button {
+  display: block;
+  margin: 12px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-password button:hover {
+  background-color: #357ab8;
+}
+
+.logout-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #e94e4e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #cc3d3d;
+}

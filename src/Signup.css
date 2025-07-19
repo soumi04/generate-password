@@ -1,0 +1,90 @@
+/* Signup.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fbd3e9, #bbd2c5);
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 35px;
+  background: linear-gradient(135deg, #fff, #ffeef2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #d6336c;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 15px;
+}
+
+.form-container input:focus {
+  border-color: #d6336c;
+  box-shadow: 0 0 8px rgba(214, 51, 108, 0.4);
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.form-container button[type="button"] {
+  background: linear-gradient(to right, #d6336c, #e83e8c);
+}
+
+.form-container button[type="button"]:hover {
+  background: linear-gradient(to right, #a61e4d, #c2185b);
+}
+
+.form-container button[type="submit"] {
+  background: linear-gradient(to right, #f36886, #f13f79);
+}
+
+.form-container button[type="submit"]:hover {
+  background: linear-gradient(to right, #c91e52, #b71c4a);
+}
+
+.form-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-container a {
+  color: #d6336c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.form-container a:hover {
+  color: #a61e4d;
+}
